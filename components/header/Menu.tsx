@@ -57,7 +57,7 @@ export default function Menu() {
               </div>
               <div className="flex">
                 <button
-                  className="cursor-pointer text-2xl px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none h-16 mt-2"
+                  className="cursor-pointer text-xl px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none h-16 mt-2"
                   type="button"
                   onClick={() => setNavbarOpen(!navbarOpen)}
                 >
@@ -75,7 +75,7 @@ export default function Menu() {
                   <ul className="flex flex-col lg:flex-row list-none font-bold justify-start gap-16 pl-4">
                     <li className="nav-item">
                       <a
-                        className="py-2 flex text-2xl hover:opacity-75 cursor-pointer tracking-widest"
+                        className="py-2 flex text-xl hover:opacity-75 cursor-pointer tracking-widest"
                         onClick={onScrollToWhatIsTheNFT}
                       >
                         WHAT IS THE NFT AVATAR MAKER?
@@ -83,7 +83,7 @@ export default function Menu() {
                     </li>
                     <li className="nav-item">
                       <a
-                        className="py-2 flex text-2xl hover:opacity-75 cursor-pointer tracking-widest"
+                        className="py-2 flex text-xl hover:opacity-75 cursor-pointer tracking-widest"
                         onClick={onScrollToGetPower}
                       >
                         GET A POWER PASS
@@ -91,7 +91,7 @@ export default function Menu() {
                     </li>
                     <li className="nav-item">
                       <a
-                        className="py-2 flex text-2xl hover:opacity-75 cursor-pointer tracking-widest"
+                        className="py-2 flex text-xl hover:opacity-75 cursor-pointer tracking-widest"
                         onClick={onScrollToTheTeam}
                       >
                         THE TEAM
@@ -107,7 +107,7 @@ export default function Menu() {
                     </li> */}
                     <li className="nav-item">
                       <a
-                        className="py-2 flex text-2xl hover:opacity-75 cursor-pointer tracking-widest"
+                        className="py-2 flex text-xl hover:opacity-75 cursor-pointer tracking-widest"
                         onClick={showFaq}
                       >
                         FAQ
@@ -119,14 +119,12 @@ export default function Menu() {
                   <div className="bg-yellow-600 rounded-md w-full">
                     <div className=" flex justify-end w-4/5">
                       <a
-                        className="py-2 w-80 flex text-black italic text-2xl font-bold hover:text-white cursor-pointer justify-center "
+                        className="py-2 w-80 flex text-black italic text-xl font-bold hover:text-white cursor-pointer justify-center "
                       >
                         CONNECT YOUR WALLET
                       </a>
                     </div>
                   </div>
-                  
-                  
                 </div>
               </div>
             </div>

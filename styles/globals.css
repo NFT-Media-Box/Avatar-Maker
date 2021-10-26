@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'DwarvenAxe';
-    src: local('DwarvenAxe'), url(./fonts/DwarvenAxe.ttf) format('truetype');
+    src: local('DwarvenAxe'), url(./fonts/Aldrich-Regular.ttf) format('truetype');
 }
 
 @-webkit-keyframes pulseText {
