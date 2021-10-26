@@ -2,6 +2,9 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
+import Image from 'next/image';
+import n12Image from "../assets/images/n_12.png";
+
 import { animateScroll as scroll, scroller } from 'react-scroll'
 import FAQ from "./../content/FAQ";
 
@@ -16,7 +19,7 @@ export default function Menu() {
       duration: 800,
       delay: 0,
       smooth: 'easeInOutQuart',
-      offset: -64
+      offset: -111
     });
   }
   const onScrollToGetPower = () => {
@@ -24,7 +27,7 @@ export default function Menu() {
       duration: 800,
       delay: 0,
       smooth: 'easeInOutQuart',
-      offset: -64
+      offset: -111
     });
   }
   const onScrollToTheTeam = () => {
@@ -32,7 +35,7 @@ export default function Menu() {
       duration: 800,
       delay: 0,
       smooth: 'easeInOutQuart',
-      offset: -64
+      offset: -111
     });
   }
   const showFaq = () => {
@@ -45,90 +48,90 @@ export default function Menu() {
 
   return (
     <>
-      <nav className="flex flex-start items-center justify-between py-1 bg-menu-bg fixed w-full z-10 text-white">
-        <div className="container flex flex-wrap items-center justify-between w-full">
-          <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start ml-10">
-            <div className="flex flex-start">
-              <div className="pt-1.5">
-                <span className="text-xl font-bold  tracking-widest">NFT </span>
-                <span className="text-xs  tracking-widest font-bold">AVATARMAKER.COM</span>
+      <nav className="flex flex-start items-center justify-between pt-1 bg-menu-bg fixed w-full z-10 text-white font-custom-arias-jon">
+        <div className="flex items-center justify-between w-full">
+          <div className="w-full relative flex justify-between lg:justify-start ml-2">
+            <div className="flex flex-start w-full">
+              <div className='pt-7'>
+                <Image src={n12Image} width={144} height={80} onClick={onScrollToTop} className="cursor-pointer"/>
               </div>
-              <div>
-                  <a
-                    className="px-3 py-2 flex text-2xl font-bold hover:opacity-75 cursor-pointer ml-20 lg:ml-10 tracking-widest"
-                    onClick={onScrollToTop}
-                  >
-                    CREATE AN AVATAR
-                  </a>
+              <div className="flex">
+                <button
+                  className="cursor-pointer text-2xl px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none h-16 mt-2"
+                  type="button"
+                  onClick={() => setNavbarOpen(!navbarOpen)}
+                >
+                  <FontAwesomeIcon className="w-6" icon={faBars}/>
+                </button>
               </div>
-            </div>
-            <div className="flex">
-              <button
-                className="cursor-pointer text-2xl px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-                type="button"
-                onClick={() => setNavbarOpen(!navbarOpen)}
+              <div
+                className={
+                  "lg:flex flex-col items-center w-full lg:justify-start" +
+                  (navbarOpen ? " flex" : " hidden")
+                }
+                id="example-navbar-danger"
               >
-                <FontAwesomeIcon className="w-6" icon={faBars}/>
-              </button>
+                <div className="w-full">
+                  <ul className="flex flex-col lg:flex-row list-none font-bold justify-start gap-16 pl-4">
+                    <li className="nav-item">
+                      <a
+                        className="py-2 flex text-2xl hover:opacity-75 cursor-pointer tracking-widest"
+                        onClick={onScrollToWhatIsTheNFT}
+                      >
+                        WHAT IS THE NFT AVATAR MAKER?
+                      </a>
+                    </li>
+                    <li className="nav-item">
+                      <a
+                        className="py-2 flex text-2xl hover:opacity-75 cursor-pointer tracking-widest"
+                        onClick={onScrollToGetPower}
+                      >
+                        GET A POWER PASS
+                      </a>
+                    </li>
+                    <li className="nav-item">
+                      <a
+                        className="py-2 flex text-2xl hover:opacity-75 cursor-pointer tracking-widest"
+                        onClick={onScrollToTheTeam}
+                      >
+                        THE TEAM
+                      </a>
+                    </li>
+                    {/* <li className="nav-item">
+                      <a
+                        className="py-2 flex text-lg hover:opacity-75 cursor-pointer tracking-widest"
+                        href='http://eepurl.com/hLzGQz' target='_blank' rel="noreferrer"
+                      >
+                        SUBSCRIPTION
+                      </a>
+                    </li> */}
+                    <li className="nav-item">
+                      <a
+                        className="py-2 flex text-2xl hover:opacity-75 cursor-pointer tracking-widest"
+                        onClick={showFaq}
+                      >
+                        FAQ
+                      </a>
+                    </li>
+                  </ul>  
+                </div>
+                <div className="w-full pr-4 ">
+                  <div className="bg-yellow-600 rounded-md w-full">
+                    <div className=" flex justify-end w-4/5">
+                      <a
+                        className="py-2 w-80 flex text-black italic text-2xl font-bold hover:text-white cursor-pointer justify-center "
+                      >
+                        CONNECT YOUR WALLET
+                      </a>
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+              </div>
             </div>
           </div>
-          <div
-            className={
-              "lg:flex flex-grow items-center ml-10" +
-              (navbarOpen ? " flex" : " hidden")
-            }
-            id="example-navbar-danger"
-          >
-            <ul className="flex flex-col lg:flex-row list-none xl:ml-auto font-bold">
-              <li className="nav-item">
-                <a
-                  className="py-2 flex text-sm hover:opacity-75 cursor-pointer xl:mr-10 lg:mr-3 tracking-widest"
-                  onClick={onScrollToWhatIsTheNFT}
-                >
-                  WHAT IS THE NFT<br/>AVATAR MAKER
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="py-2 flex text-sm hover:opacity-75 cursor-pointer xl:mr-10 lg:mr-3 tracking-widest"
-                  onClick={onScrollToGetPower}
-                >
-                  GET A<br/>POWER PASS
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="py-2 flex text-sm hover:opacity-75 cursor-pointer pt-4  xl:mr-10 lg:mr-3 tracking-widest"
-                  onClick={onScrollToTheTeam}
-                >
-                  THE TEAM
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="py-2 flex text-sm hover:opacity-75 cursor-pointer pt-4  xl:mr-10 lg:mr-3 tracking-widest"
-                  href='http://eepurl.com/hLzGQz' target='_blank' rel="noreferrer"
-                >
-                  SUBSCRIPTION
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="py-2 flex text-sm hover:opacity-75 cursor-pointer pt-4 xl:mr-16 lg:mr-10 tracking-widest"
-                  onClick={showFaq}
-                >
-                  FAQ
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="py-2 flex text-black italic text-lg font-bold hover:text-white cursor-pointer pt-3 pr-5"
-                >
-                  CONNECT WALLET
-                </a>
-              </li>
-            </ul>
-          </div>
+          
         </div>
         <FAQ show={isShowFaq} funcHide={hideFaq}/>
       </nav>

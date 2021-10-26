@@ -1,5 +1,6 @@
 import Image from 'next/image'
-import bg2Image from "../assets/images/2bg.png"
+import bg2Image from "./../assets/images/2bg.png"
+
 
 const WhatIsAvatar = () => {
     return (

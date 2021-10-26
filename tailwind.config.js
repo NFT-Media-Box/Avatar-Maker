@@ -3,6 +3,11 @@ module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
    darkMode: false, // or 'media' or 'class'
    theme: {
+    fontFamily: {
+      'custom-arias-jon': ['DwarvenAxe'],
+      'custom-caution': ['Caution'],
+      'custom-cgf': ['CGF']
+    },
      extend: {
       textColor: {
         'title': '#0e044c'
@@ -14,7 +19,7 @@ module.exports = {
         'green': '0 15px 10px rgba(255, 215, 0, 0.2)',
       },
       backgroundColor: {
-        "menu-bg": "#f37a19",
+        "menu-bg": "#252525",
         "create-avatar-bg": "#150941",
         "incoming": "#fafaf2",
       },
@@ -53,6 +58,10 @@ module.exports = {
       "1/9": "11%",
       "1/10": "10%",
       "1/11": "9%",
+      },
+      padding: {
+        "1/6": "15%",
+        "1/5": "20%",
       }
      },
    },

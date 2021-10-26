@@ -118,7 +118,7 @@ const FAQ = (props: { show: boolean; funcHide: () => void; }) => {
         }}
       >
         <div>
-            <div className='w-full flex justify-center items-center text-3xl font-bold text-gray-800'>
+            <div className='w-full flex justify-center items-center pt-10 text-3xl font-bold text-gray-800'>
                 Frequently Asked Questions(FAQ)
             </div>
             {
