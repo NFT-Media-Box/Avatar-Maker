@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import bg7Image from "./../assets/images/7bg.png";
+import bg7Image from "./../assets/images/7-bg.png";
 import p72Image from "./../assets/images/72.png";
 import p73Image from "./../assets/images/73.png";
 
