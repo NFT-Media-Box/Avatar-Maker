@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import bg3Image from "./../assets/images/3-bg.png";
 import p32Iamge from "./../assets/images/32.png";
-import p34Image from "./../assets/images/34.png";
+import p34Image from "./../assets/images/multi.png";
 import f12Image from "./../assets/images/12.png";
-import p35Image from "./../assets/images/35.png";
+import p35Image from "./../assets/images/eq.png";
 import p37Image from "./../assets/images/37.jpeg";
 import p38Image from "./../assets/images/38.png";
 
