@@ -2,7 +2,7 @@ import Image from 'next/image'
 import p32Image from "./../assets/images/32.png";
 import p51Image from "./../assets/images/51.png";
 import p56Image from "./../assets/images/56.png";
-import p52Image from "./../assets/images/52.png";
+import p52Image from "./../assets/images/52-n.png";
 import p53Image from "./../assets/images/53.png";
 import p54Image from "./../assets/images/54.png";
 import p57Image from "./../assets/images/57.jpg";
