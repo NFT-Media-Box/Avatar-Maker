@@ -3,7 +3,7 @@ import p32Iamge from "./../assets/images/32.png";
 import p34Image from "./../assets/images/multi.png";
 import f12Image from "./../assets/images/n_12.png";
 import p35Image from "./../assets/images/eq.png";
-import p37Image from "./../assets/images/37.jpeg";
+import p37Image from "./../assets/images/40.png";
 import p38Image from "./../assets/images/38.png";
 
 const PowerUp = () => {

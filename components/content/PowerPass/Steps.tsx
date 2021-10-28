@@ -3,9 +3,9 @@ import p32 from "./../../assets/images/32.png";
 import p4 from "./../../assets/images/p-4.png";
 import p5 from "./../../assets/images/p-5.png";
 import p6 from "./../../assets/images/p-6.png";
-import p37 from "./../../assets/images/37.jpeg";
+import p37 from "./../../assets/images/40.png";
 import p38 from "./../../assets/images/38.png";
-import p39 from "./../../assets/images/39.jpeg";
+import p39 from "./../../assets/images/39.png";
 const Steps = () => {
     return (
         <div className="flex flex-col font-custom-arias-jon pt-20 pb-20 bg-center bg-cover " style={{backgroundImage: `url(/img/background.png)`}}>
