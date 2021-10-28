@@ -23,6 +23,12 @@ module.exports = {
         "create-avatar-bg": "#150941",
         "incoming": "#fafaf2",
       },
+      width: {
+        '7/8': '82%',
+      },
+      height: {
+        '25.8': '103px',
+      },
       minWidth: {
       '1/5': '20%',
       '1/4': '25%',

@@ -1,18 +1,24 @@
 import Image from 'next/image'
 import bg2Image from "./../assets/images/2-bg.png"
+import p21Image from "./../assets/images/21.png"
 
 
 const WhatIsAvatar = () => {
     return (
-      <div className="w-full flex -mt-2">
-          <div className="relative">
-            <Image src={bg2Image} width={1763} height={800}/>
+      <div className="font-custom-arias-jon w-full flex flex-col lg:flex-row py-20 bg-center bg-cover "  style={{backgroundImage: `url(/img/background.png)`}}>
+        <div className="flex w-full lg:w-1/2 justify-center items-center">
+          <div className="w-1/2 flex justify-center items-center">
+            <Image src={p21Image} alt='hq'></Image>
           </div>
-          <div className="absolute w-1/2 h-full inset-x-1/2 lg:py-10 md:py-2">
-            <div className="border-b-4 border-yellow-500 pb-4">
-              <span className=" xl:text-5xl font-bold md:text-lg text-blue-900 tracking-widest">WHAT IS THE NFT<br/>AVATAR MAKER</span>
+        </div>  
+          <div className="w-full lg:w-1/2 px-10 mt-5 lg:mt-0">
+            <div className="hidden lg:block border-b-4 border-yellow-500 pb-4">
+              <span className="text-5xl text-white font-bold tracking-widest">WHAT IS THE NFT<br />AVATAR MAKER</span>
             </div>
-            <div className="lg:mt-7 md:mt-2 w-full pr-10 font-bold 2xl:text-lg xl:text-base lg:text-sm md:text-xs sm:text-xs md:leading-none lg:leading-none xl:leading-tight 2xl:leading-tight text-title">
+            <div className="flex lg:hidden border-b-4 border-yellow-500 pb-4 justify-center pt-4">
+              <span className="text-5xl text-white font-bold tracking-widest">WHAT IS THE NFT AVATAR MAKER</span>
+            </div>
+            <div className="lg:mt-7 md:mt-2 w-full pr-10 text-white font-bold  text-xl leading-none pt-8 lg:pt-2">
               The NFT Avatar Maker is the "be all and end all" Avatar Tool.<br/><br/>
               With billions of combinations and over 1200 characteristics at launch, our NFT avatar maker
               will allow users to build their avatars from an ever-growing list of character traits.<br/><br/>

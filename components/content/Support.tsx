@@ -1,50 +1,48 @@
+import { url } from 'inspector';
 import Image from 'next/image'
-import bg7Image from "./../assets/images/7-bg.png";
 import p72Image from "./../assets/images/discord.png";
 import p73Image from "./../assets/images/twitter.png";
 
 const Support = () => {
     return (
-        <div className="w-full flex">
-            <div className="relative">
-                <Image src={bg7Image} width={1763} height={849}/>
-            </div>
-            <div className="absolute w-1/2 h-full inset-x-1/2 lg:pt-16 md:pt-4">
-                <div className='w-full border-b-4 border-yellow-500 pb-6 pt-12 w-1/3 flex justify-start'>
-                    <span className='md:text-lg xl:text-5xl font-bold text-blue-900'> SUPPORT </span>
-                </div>
-                
-                <div className="flex justify-start">
-                    <div className="flex flex-col">
-                        <div  className="mt-10">
-                            <button>
-                                <div className="flex">
-                                    <Image src={p72Image} width={100} height={75}></Image>
-                                    <div className="flex flex-col ml-5">
-                                        <div className="text-yellow-500 text-3xl font-bold flex justify-start">
-                                            Discord
-                                        </div>
-                                        <div className="text-black text-lg  flex justify-start mt-3">
-                                            https://discord.gg/NFTAvatarMaker
+        <div className="flex flex-col font-custom-arias-jon pt-32 pb-10 bg-center bg-cover " style={{backgroundImage: `url(/img/background.png)`}}>
+            <div className='flex justify-end pb-20'>
+                <div className="w-1/2 h-full">
+                    <div className='w-full border-b-4 border-yellow-600 pb-6 pt-4 flex justify-start'>
+                        <span className='text-5xl font-bold text-white'> SUPPORT </span>
+                    </div>
+                    <div className="flex justify-start">
+                        <div className="flex flex-col">
+                            <div  className="mt-10">
+                                <button>
+                                    <div className="flex">
+                                        <Image src={p72Image} width={90} height={50} alt='discord'></Image>
+                                        <div className="flex flex-col ml-5">
+                                            <div className="text-white text-3xl font-bold flex justify-start">
+                                                Discord
+                                            </div>
+                                            <div className="text-white text-lg  flex justify-start mt-3">
+                                                https://discord.gg/NFTAvatarMaker
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </button>
-                        </div>
-                        <div  className="mt-10 ml-2">
-                            <button>
-                                <div className="flex">
-                                    <Image src={p73Image} width={90} height={75}></Image>
-                                    <div className="flex flex-col ml-7">
-                                        <div className="text-yellow-500 text-3xl font-bold flex justify-start">
-                                            Twitter
-                                        </div>
-                                        <div className="text-black text-lg  flex justify-start mt-3">
-                                            @Metaciple
+                                </button>
+                            </div>
+                            <div  className="mt-10 ml-2">
+                                <button>
+                                    <div className="flex">
+                                        <Image src={p73Image} width={90} height={50} alt='twitter'></Image>
+                                        <div className="flex flex-col ml-7">
+                                            <div className="text-white text-3xl font-bold flex justify-start">
+                                                Twitter
+                                            </div>
+                                            <div className="text-white text-lg  flex justify-start mt-3">
+                                                @Metaciple
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </button>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
