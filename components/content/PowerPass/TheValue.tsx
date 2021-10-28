@@ -3,8 +3,8 @@ import p12 from "./../../assets/images/n_12.png";
 const TheValue = () => {
   return (
     <div className="flex flex-col font-custom-arias-jon pt-32 pb-32 bg-center bg-cover " style={{backgroundImage: `url(/img/background.png)`}}>
-      <div className='font-bold text-5xl tracking-wider border-b-4 border-yellow-500 w-3/5 pb-4 flex justify-end -mt-8' >
-        <span className='-mr-20 text-white'>THE VALUE OF A POWER-PASS.</span>
+      <div className='font-bold text-4xl lg:text-5xl tracking-wider border-b-4 border-yellow-500 w-3/5 pb-4 flex justify-end -mt-8' >
+        <span className='text-white'>THE VALUE OF A POWER-PASS</span>
       </div>
       <div className='flex justify-between'>
         <div className='pt-20'>

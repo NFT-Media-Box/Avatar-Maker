@@ -9,7 +9,7 @@ import p39 from "./../../assets/images/39.jpeg";
 const Steps = () => {
     return (
         <div className="flex flex-col font-custom-arias-jon pt-20 pb-20 bg-center bg-cover " style={{backgroundImage: `url(/img/background.png)`}}>
-            <div className='border-b-4 border-yellow-500 w-1/2 pt-14 pb-10 flex justify-center'>
+            <div className='border-b-4 border-yellow-500 w-1/2 pt-14 pb-6 flex justify-end'>
                 <span className='font-bold text-5xl tracking-wider text-white'>POWER-PASS STEPS</span>
             </div>
             <div className='grid grid-cols-3 gap-4 pt-8'>
@@ -47,19 +47,19 @@ const Steps = () => {
                     </div>
                 </div>
                 <div>
-                    <div className='flex items-center -mt-40 justify-around'>
-                        <div>
-                            <Image src={p6} alt='p6' width={133} height={75} />
+                    <div className='flex items-center -mt-40 justify-between'>
+                        <div className='px-8'>
+                            <Image src={p6} alt='p6' width={532} height={300} />
                         </div>
-                        <div>
-                            <div>
-                                <Image src={p37} alt='p37' width={200} height={200} />
+                        <div className=''>
+                            <div className='w-8/12'>
+                                <Image src={p37} alt='p37' width={1500} height={1500} />
                             </div>
-                            <div>
-                                <Image src={p38} alt='p38' width={200} height={200} />
+                            <div  className='w-8/12'>
+                                <Image src={p38} alt='p38' width={1500} height={1500} />
                             </div>
-                            <div>
-                                <Image src={p39} alt='p39' width={200} height={200} />
+                            <div  className='w-8/12'>
+                                <Image src={p39} alt='p39' width={1500} height={1500} />
                             </div>
                         </div>
                     </div>

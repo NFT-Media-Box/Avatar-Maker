@@ -12,7 +12,7 @@ const PowerUp = () => {
           <div className="flex items-center pr-20 py-10 ">
             <div>
               <div className="border-b-4 border-yellow-500 pb-4 flex justify-end w-5/6">
-                <span className="text-5xl font-bold text-white -mr-20">POWER UP YOUR FAVORITE NFTs</span>
+                <span className="text-5xl font-bold text-white">POWER UP YOUR FAVORITE NFTs</span>
               </div>
               <div className="flex justify-start items-center pl-44 gap-1 pt-8">
                 <div>
@@ -29,12 +29,12 @@ const PowerUp = () => {
                 </div>
               </div>
             </div>
-            <div className="pl-10">
-              <div>
-                <Image src={p37Image} width={300} height={300} alt='2'/>
+            <div className="pl-10 w-1/5">
+              <div className='w-full'>
+                <Image src={p37Image} width={1500} height={1500} alt='2'/>
               </div>
-              <div>
-                <Image src={p38Image} width={300} height={300} alt='2'/>
+              <div className='w-full'>
+                <Image src={p38Image} width={1500} height={1500} alt='2'/>
               </div>
             </div>
           </div>
