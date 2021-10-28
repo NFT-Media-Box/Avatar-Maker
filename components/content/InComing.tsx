@@ -5,6 +5,7 @@ import p56Image from "./../assets/images/56.png";
 import p52Image from "./../assets/images/52-n.png";
 import p53Image from "./../assets/images/53.png";
 import p54Image from "./../assets/images/54.png";
+import p55Image from "./../assets/images/55.png";
 import p57Image from "./../assets/images/57.png";
 import pABImage from "./../assets/images/AB.png";
 
@@ -19,6 +20,7 @@ const InComing = () => {
           <Image src={p51Image} width={200} height={200} alt='1'/>
           <Image src={p52Image} width={200} height={200} alt='1'/>
           <Image src={p53Image} width={200} height={200} alt='1'/>
+          <Image src={p55Image} width={200} height={200} alt='1'/>
         </div>
         <div className='flex justify-evenly pb-10 items-center'>
           <div>
