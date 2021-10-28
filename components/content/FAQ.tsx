@@ -13,7 +13,7 @@ const FAQ = (props: { show: boolean; funcHide: () => void; }) => {
     },
     {
         Q: "How much does it cost?",
-        A: ["Prices start at 0.03"]
+        A: ["Prices start at 0.03ETH"]
     },
     {
         Q: "When will it launch?",
