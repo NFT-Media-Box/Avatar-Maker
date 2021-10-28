@@ -71,7 +71,7 @@ const Team = () => {
             <div>
               <Image src={p68Image} width={230} height={250} alt='1'/>
               <div className='bg-black w-56 py-1 px-2  text-white flex text-sm font-bold justify-center items-center text-center team_shadow'>
-                CARLREED<br/>
+                CARL REED<br/>
                 (ENTERTAINMENT)
               </div>
             </div>
