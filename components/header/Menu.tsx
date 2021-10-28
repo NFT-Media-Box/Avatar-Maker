@@ -124,7 +124,7 @@ export default function Menu() {
                         onClick={showCommingSoon}
                       >
                         <Popup trigger={<button> CONNECT YOUR WALLET</button>} position='bottom center'>
-                          <div className='font-bold text-xl'>Comming Soon...</div>
+                          <div className='font-bold text-xl'>Coming Soon...</div>
                         </Popup>
                         
                       </a>

@@ -14,7 +14,7 @@ const Support = () => {
                     <div className="flex justify-start">
                         <div className="flex flex-col">
                             <div  className="mt-10">
-                                <button>
+                                <a href='https://discord.gg/NFTAvatarmaker' target='_blank' rel="noreferrer">
                                     <div className="flex">
                                         <Image src={p72Image} width={90} height={50} alt='discord'></Image>
                                         <div className="flex flex-col ml-5">
@@ -26,10 +26,10 @@ const Support = () => {
                                             </div>
                                         </div>
                                     </div>
-                                </button>
+                                </a>
                             </div>
                             <div  className="mt-10 ml-2">
-                                <button>
+                                <a href='https://twitter.com/Metaciple' target='_blank' rel="noreferrer">
                                     <div className="flex">
                                         <Image src={p73Image} width={90} height={50} alt='twitter'></Image>
                                         <div className="flex flex-col ml-7">
@@ -41,7 +41,7 @@ const Support = () => {
                                             </div>
                                         </div>
                                     </div>
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </div>

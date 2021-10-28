@@ -1,5 +1,6 @@
 import Image from 'next/image';
-import bg1Image from "./../assets/images/1-1bg.png";
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 import f12Image from "./../assets/images/hq.png";
 
 const CreateAvatar = () => {
@@ -32,7 +33,9 @@ const CreateAvatar = () => {
             <div
               className="py-2 px-5 cursor-pointer text-black text-xl font-bold hover:text-white justify-center tracking-widest"
             >
-              CREATE YOUR OWN AVATAR
+              <Popup trigger={<button>CREATE YOUR OWN AVATAR</button>} position='top center'>
+                <div className='font-bold text-xl'>Coming Soon...</div>
+              </Popup>
             </div>
           </div>
           
