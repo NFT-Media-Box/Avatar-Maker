@@ -1,6 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
+
 
 import Image from 'next/image';
 import n12Image from "../assets/images/n_12.png";
@@ -40,6 +43,13 @@ export default function Menu() {
   }
   const showFaq = () => {
     setShowFAQ(!isShowFaq);
+  }
+  const showCommingSoon = () => {
+    return (
+      <Popup trigger={<button> Trigger</button>} position="right center">
+        <div>Popup content here !!</div>
+      </Popup>
+    )
   }
 
   const hideFaq = () => {
@@ -111,8 +121,12 @@ export default function Menu() {
                     <div className=" flex justify-start lg:justify-end w-7/8">
                       <a
                         className="py-2 px-5 flex text-black italic text-xl font-bold hover:text-white cursor-pointer justify-center "
+                        onClick={showCommingSoon}
                       >
-                        CONNECT YOUR WALLET
+                        <Popup trigger={<button> CONNECT YOUR WALLET</button>} position='bottom center'>
+                          <div className='font-bold text-xl'>Comming Soon...</div>
+                        </Popup>
+                        
                       </a>
                     </div>
                   </div>

@@ -7,6 +7,8 @@ import p53Image from "./../assets/images/53.png";
 import p54Image from "./../assets/images/54.png";
 import p55Image from "./../assets/images/55.png";
 import p57Image from "./../assets/images/57.png";
+import p58Image from "./../assets/images/58.png";
+import p59Image from "./../assets/images/59.png";
 import pABImage from "./../assets/images/AB.png";
 
 const InComing = () => {
@@ -16,11 +18,13 @@ const InComing = () => {
           <span className='text-5xl font-bold text-white'> INCOMING POWER-PASSES </span>
         </div>
         <div className='flex justify-around items-center pt-10 pb-20'>
-          <Image src={p32Image} width={200} height={200} alt='1'/>
-          <Image src={p51Image} width={200} height={200} alt='1'/>
-          <Image src={p52Image} width={200} height={200} alt='1'/>
-          <Image src={p53Image} width={200} height={200} alt='1'/>
-          <Image src={p55Image} width={200} height={200} alt='1'/>
+          <Image src={p32Image} width={180} height={180} alt='1'/>
+          <Image src={p51Image} width={180} height={180} alt='1'/>
+          <Image src={p52Image} width={180} height={180} alt='1'/>
+          <Image src={p53Image} width={180} height={180} alt='1'/>
+          <Image src={p55Image} width={180} height={180} alt='1'/>
+          <Image src={p58Image} width={180} height={180} alt='1'/>
+          <Image src={p59Image} width={180} height={180} alt='1'/>
         </div>
         <div className='flex justify-evenly pb-10 items-center'>
           <div>
