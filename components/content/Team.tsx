@@ -18,14 +18,14 @@ const Team = () => {
           <div className='flex justify-center items-center pt-10 pb-20 gap-14'>
             <div>
               <Image src={p61Image} width={225} height={250} alt='1'/>
-              <div className='bg-black w-56 p-1 text-white text-sm flex font-bold justify-center items-center text-center team_shadow'>
+              <div className='bg-black w-56 p-2 text-white text-sm flex font-bold justify-center items-center text-center team_shadow'>
                 SHAPESHIFTER333<br/>
                 (OPERATIONS)
               </div>
             </div>
             <div>
               <Image src={p62Image} width={225} height={250} alt='1'/>
-              <div className='bg-black w-56 p-1 text-white flex text-sm font-bold justify-center items-center text-center team_shadow'>
+              <div className='bg-black w-56 p-2 text-white flex text-sm font-bold justify-center items-center text-center team_shadow'>
                 ADDIS"RAPTILE"MUSSA<br/>
                 (MUSIC)
               </div>
@@ -40,7 +40,7 @@ const Team = () => {
             </div>
             <div>
               <Image src={p64Image} width={225} height={250} alt='1'/>
-              <div className='bg-black w-56 p-1 text-white flex text-sm font-bold justify-center items-center text-center team_shadow'>
+              <div className='bg-black w-56 p-2 text-white flex text-sm font-bold justify-center items-center text-center team_shadow'>
                 LULU<br/>
                 (COMMUNITY MANAGMENT)
               </div>
