@@ -15,7 +15,7 @@ const InComing = () => {
     return (
       <div className="font-custom-arias-jon pb-14 bg-center bg-cover " style={{backgroundImage: `url(/img/background.png)`}}>
         <div className='border-b-4 border-yellow-500 pb-2 pt-14 w-3/5 flex justify-end'>
-          <span className='text-5xl font-bold text-white'> INCOMING POWER-PASSES </span>
+          <span className='text-2xl lg:text-5xl font-bold text-white'> INCOMING POWER-PASSES </span>
         </div>
         <div className='flex justify-around items-center pt-10 pb-20'>
           <Image src={p32Image} width={180} height={180} alt='1'/>

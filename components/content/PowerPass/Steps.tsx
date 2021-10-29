@@ -9,10 +9,10 @@ import p39 from "./../../assets/images/39.png";
 const Steps = () => {
     return (
         <div className="flex flex-col font-custom-arias-jon pt-20 pb-20 bg-center bg-cover " style={{backgroundImage: `url(/img/background.png)`}}>
-            <div className='border-b-4 border-yellow-500 w-1/2 pt-14 pb-6 flex justify-end'>
-                <span className='font-bold text-5xl tracking-wider text-white'>POWER-PASS STEPS</span>
+            <div className='border-b-4 border-yellow-500 w-2/3 md:w-1/2 pt-14 pb-6 flex justify-end'>
+                <span className='font-bold text-4xl lg:text-5xl tracking-wider text-white'>POWER-PASS STEPS</span>
             </div>
-            <div className='grid grid-cols-3 gap-4 pt-8'>
+            <div className='hidden md:grid grid-cols-3 gap-4 pt-8'>
                 <div className='pl-10'>
                     <div className='grid grid-cols-5'>
                         <div className='col-span-4'>
@@ -47,11 +47,41 @@ const Steps = () => {
                     </div>
                 </div>
                 <div>
-                    <div className='flex items-center -mt-40 justify-between'>
+                    <div className='flex items-center -mt-20 lg:-mt-40 justify-between'>
                         <div className='px-8'>
                             <Image src={p6} alt='p6' width={532} height={300} />
                         </div>
                         <div className=''>
+                            <div className='w-8/12'>
+                                <Image src={p37} alt='p37' width={1500} height={1500} />
+                            </div>
+                            <div  className='w-8/12'>
+                                <Image src={p38} alt='p38' width={1500} height={1500} />
+                            </div>
+                            <div  className='w-8/12'>
+                                <Image src={p39} alt='p39' width={1500} height={1500} />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='block md:hidden'>
+                <div className='px-4 flex pt-6'>
+                    <div className='flex'>
+                        <div className='col-span-4'>
+                            <Image src={p32} alt='p32' width={350} height={350} />
+                        </div>
+                        <div className='flex items-center mx-2'>
+                            <Image src={p4} alt='p4' width={105} height={105} />
+                        </div>
+                    </div>
+                    <div className='flex'>
+                        <Image src={p5} alt='p5' width={560} height={330} />
+                    </div>
+                </div>
+                <div>
+                    <div className='flex items-center justify-between pt-8'>
+                        <div className='flex px-4'>
                             <div className='w-8/12'>
                                 <Image src={p37} alt='p37' width={1500} height={1500} />
                             </div>

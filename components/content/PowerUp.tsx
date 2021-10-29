@@ -8,33 +8,35 @@ import p38Image from "./../assets/images/38.png";
 
 const PowerUp = () => {
     return (
-      <div className="flex font-custom-arias-jon bg-center bg-cover " style={{backgroundImage: `url(/img/background.png)`}}>
-          <div className="flex items-center pr-20 py-10 ">
-            <div>
-              <div className="border-b-4 border-yellow-500 pb-4 flex justify-end w-5/6">
-                <span className="text-5xl font-bold text-white">POWER UP YOUR FAVORITE NFTs</span>
-              </div>
-              <div className="flex justify-start items-center pl-44 gap-1 pt-8">
-                <div>
-                  <Image src={p32Iamge} width={275} height={275} alt='2' />
-                </div>
-                <div className="pl-10">
-                  <Image src={p34Image} width={150} height={150} alt='2'/>
-                </div>
-                <div className="pl-10">
-                  <Image src={f12Image} width={360} height={200} alt='2'/>
-                </div>
-                <div className="pl-10">
-                  <Image src={p35Image} width={160} height={90} alt='2'/>
-                </div>
-              </div>
+      <div className="font-custom-arias-jon bg-center bg-cover " style={{backgroundImage: `url(/img/background.png)`}}>
+          <div className="px-6 py-10 ">
+            <div className="border-b-4 border-yellow-500 pb-4 flex justify-end w-2/3 -ml-6">
+              <span className="text-2xl lg:text-5xl font-bold text-white">POWER UP YOUR FAVORITE NFTs</span>
             </div>
-            <div className="pl-10 w-1/5">
-              <div className='w-full'>
-                <Image src={p37Image} width={1500} height={1500} alt='2'/>
-              </div>
-              <div className='w-full'>
-                <Image src={p38Image} width={1500} height={1500} alt='2'/>
+            <div className='flex justify-center items-center'>
+              <div className='flex items-center'>
+                <div className="flex justify-between items-center gap-1 pt-8">
+                  <div>
+                    <Image src={p32Iamge} width={275} height={275} alt='2' />
+                  </div>
+                  <div className="pl-2 lg:pl-10">
+                    <Image src={p34Image} width={150} height={150} alt='2'/>
+                  </div>
+                  <div className="pl-2 lg:pl-10">
+                    <Image src={f12Image} width={360} height={200} alt='2'/>
+                  </div>
+                  <div className="pl-2 lg:pl-10">
+                    <Image src={p35Image} width={160} height={90} alt='2'/>
+                  </div>
+                </div>
+                <div className="pl-2 lg:pl-10">
+                  <div className='w-full'>
+                    <Image src={p37Image} width={200} height={200} alt='2'/>
+                  </div>
+                  <div className='w-full'>
+                    <Image src={p38Image} width={200} height={200} alt='2'/>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

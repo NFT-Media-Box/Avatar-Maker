@@ -76,7 +76,7 @@ export default function Menu() {
                   <ul className="flex flex-col lg:flex-row list-none font-bold justify-between pl-4 w-9/12">
                     <li className="nav-item">
                       <a
-                        className="py-2 flex text-xl hover:opacity-75 cursor-pointer "
+                        className="py-2 flex sm:text-xs md:text-base lg:text-xl hover:opacity-75 cursor-pointer "
                         onClick={onScrollToWhatIsTheNFT}
                       >
                         WHAT IS THE NFT AVATAR MAKER?
@@ -84,7 +84,7 @@ export default function Menu() {
                     </li>
                     <li className="nav-item">
                       <a
-                        className="py-2 flex text-xl hover:opacity-75 cursor-pointer "
+                        className="py-2 flex sm:text-xs md:text-base lg:text-xl hover:opacity-75 cursor-pointer "
                         onClick={onScrollToGetPower}
                       >
                         GET A POWER PASS
@@ -92,7 +92,7 @@ export default function Menu() {
                     </li>
                     <li className="nav-item">
                       <a
-                        className="py-2 flex text-xl hover:opacity-75 cursor-pointer "
+                        className="py-2 flex sm:text-xs md:text-base lg:text-xl hover:opacity-75 cursor-pointer "
                         onClick={onScrollToTheTeam}
                       >
                         THE TEAM
@@ -100,7 +100,7 @@ export default function Menu() {
                     </li>
                     {/* <li className="nav-item">
                       <a
-                        className="py-2 flex text-lg hover:opacity-75 cursor-pointer "
+                        className="py-2 flex sm:text-xs md:text-base lg:text-xl hover:opacity-75 cursor-pointer "
                         href='http://eepurl.com/hLzGQz' target='_blank' rel="noreferrer"
                       >
                         SUBSCRIPTION
@@ -108,7 +108,7 @@ export default function Menu() {
                     </li> */}
                     <li className="nav-item">
                       <a
-                        className="py-2 flex text-xl hover:opacity-75 cursor-pointer "
+                        className="py-2 flex sm:text-xs md:text-base lg:text-xl hover:opacity-75 cursor-pointer "
                         onClick={showFaq}
                       >
                         FAQ
